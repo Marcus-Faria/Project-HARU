@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed&display=swap')
+/*Basic*/
 
-/* Cabeçalho */
+body {
+    background-color: #fff7f2;
+}
+
+/* Header */
 
 #header {
     padding: 0.8em 0 0.1em 0.1em ;
@@ -19,9 +21,10 @@
             }
     
     #header .title{
-        font-family: 'Oswald';
+        font-family: 'Saira Extra Condensed', sans-serif;
         font-size: 120px;
         letter-spacing: 0;
-        color: salmon;
-        font-weight: 600;
+        color: #ff979c;
+        font-weight: 400;
+        transform: scaleY(150%);
     }
