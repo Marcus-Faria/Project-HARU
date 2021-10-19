@@ -5,7 +5,7 @@
 <h3 align="center">Ideia base do Layout do projeto</h3>
 <p align="center">
   <a href="#">
-    <img align="center" width="500" src="#" />
+    <img align="center" width="500" src="./images/websiteHARU_ideiaBase.png" />
   </a>
 </p>
 <br>
