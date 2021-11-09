@@ -1,40 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HARU</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <!-- Logo -->
     <div class="logo">
-        <img src="./images/logo.svg" alt="logo HARU">
+      <img src="./images/logo.svg" alt="logo HARU" />
     </div>
 
     <section>
-        <!-- Swiper -->
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="CardBox">
-                        <div class="content">
-                            <div class="imgBx">
-                                <img src="./images/haru.png" alt="any plant">
-                            </div>
-                            <div class="plantData">
-                                <table></table>
-                            </div>
-                            <div class="details">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium repellendus labore vitae. Assumenda perferendis aperiam architecto quasi tenetur explicabo dolore, quibusdam quos blanditiis quidem magnam excepturi animi facere ipsam ex.</p>
-                            </div>
-                        </div>
-                    </div>
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="CardBox">
+              <div class="details">
+                <div class="imgBx">
+                  <img src="./images/haru.png" alt="any plant" />
                 </div>
+                <div class="plantData">
+                  <table>
+                    <td>
+                      <ul>
+                        <li><strong>Nome Científico : </strong>planta 1</li>
+                        <li><strong>Familia : </strong>familia 1</li>
+                        <li><strong>Luminosidade : </strong>Sol-pleno</li>
+                        <li><strong>Altura : </strong>0.1 a 0.5 metros</li>
+                        <li><strong>Ciclo de Vida : </strong>Anual</li>
+                      </ul>
+                    </td>
+                  </table>
+                </div>
+              </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusantium repellendus labore vitae. Assumenda perferendis
+                  aperiam architecto quasi tenetur explicabo dolore, quibusdam
+                  quos blanditiis quidem magnam excepturi animi facere ipsam ex.
+                </p>
+              </div>
             </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="CardBox">
+              <div class="details">
+                <div class="imgBx">
+                  <img src="./images/haru.png" alt="any plant" />
+                </div>
+                <div class="plantData">
+                  <table>
+                    <td>
+                      <ul>
+                        <li><strong>Nome Científico : </strong>planta 2</li>
+                        <li><strong>Familia : </strong>familia 2</li>
+                        <li><strong>Luminosidade : </strong>Meia-Sombra</li>
+                        <li><strong>Altura : </strong>1 a 1.2 metros</li>
+                        <li><strong>Ciclo de Vida : </strong>Semestral</li>
+                      </ul>
+                    </td>
+                  </table>
+                </div>
+              </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusantium repellendus labore vitae. Assumenda perferendis
+                  aperiam architecto quasi tenetur explicabo dolore, quibusdam
+                  quos blanditiis quidem magnam excepturi animi facere ipsam ex.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="CardBox">
+              <div class="details">
+                <div class="imgBx">
+                  <img src="./images/haru.png" alt="any plant" />
+                </div>
+                <div class="plantData">
+                  <table>
+                    <td>
+                      <ul>
+                        <li><strong>Nome Científico : </strong>planta 3</li>
+                        <li><strong>Familia : </strong>familia 3</li>
+                        <li><strong>Luminosidade : </strong>Luz Filtrada</li>
+                        <li><strong>Altura : </strong>0.1 a 0.5 metros</li>
+                        <li><strong>Ciclo de Vida : </strong>Perene</li>
+                      </ul>
+                    </td>
+                  </table>
+                </div>
+              </div>
+              <div class="content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusantium repellendus labore vitae. Assumenda perferendis
+                  aperiam architecto quasi tenetur explicabo dolore, quibusdam
+                  quos blanditiis quidem magnam excepturi animi facere ipsam ex.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Swiper JS -->
@@ -42,20 +120,20 @@
 
     <!-- Initialize Swiper -->
     <script>
-        var swiper = new Swiper(".swiper-container", {
+      var swiper = new Swiper(".swiper-container", {
         effect: "coverflow",
         grabCursor: true,
         centeredSlides: true,
         slidesPerView: "auto",
         coverflowEffect: {
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
         },
         loop: true,
-        });
+      });
     </script>
-</body>
+  </body>
 </html>
